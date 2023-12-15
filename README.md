@@ -1,2 +1,0 @@
-# vaisakhrajeev.github.io
-Intro!
