@@ -20,7 +20,8 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
+# theme
+theme: jekyll-theme-minimal
 jobs:
   # Build job
   build:
@@ -49,5 +50,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-# theme
-theme: jekyll-theme-minimal
+
